@@ -1,7 +1,6 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>Hello Vercel 🚀</h1>
-    </main>
-  );
+// src/app/page.tsx
+import { redirect } from "next/navigation";
+
+export default function RootPage() {
+  redirect("/home");
 }
